@@ -17,6 +17,9 @@
 ## 💡Acerca de  
  Este **proyecto**  es desarrollado para el estudio de la herramienta **GitHub**  y **VSC** para estudiantes de Ingeniería en Software de *Universidad Cuauhtemoc Querétato.*
 
+![CodigoImage](Fotos/codigoxD.png)
+
+
 ### 🫵Instrucciones:
 > #### **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
 
@@ -41,11 +44,11 @@ switch NuevaRama"
 
 
 
-
-
 ### 📣Este Proyecto esta conformado por:
 ---
 +  IBER ARMANDO SILVA GONZALEZ (<Isilva37731@ucq.edu.mx> )
 + DIEGO CASTILLO SALAZAR (<dcastillo35389@ucq.edu.mx>)
 + LORENA REGINA GARCIA FELIX (<lgarcia32381@ucq.edu.mx>)
 + TADEO MAURICIO ESCOBAR RIVERA <tescobar38642@ucq.edu.mx>
+
+![PicsGif](Fotos/Pics.gif)
