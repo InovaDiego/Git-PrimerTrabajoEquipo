@@ -1,3 +1,4 @@
+package Funciones;
 import java.util.Scanner;
 
 public class Diego_Castillo_Salazar {
