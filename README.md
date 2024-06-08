@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- logo IMG -->
 <p align="center">
   <img width="180" src="Fotos/ProyGit.gif" 
@@ -18,6 +19,17 @@
 
 ### 🫵Instrucciones:
 > **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
+=======
+# Git-PrimerTrabajoEquipo
+## ***Este Proyecto esta conformado por:***
++ IBER ARMANDO SILVA GONZALEZ🦊
++ DIEGO CASTILLO SALAZAR👾
++ REGINA GARCIA FELIX🐯
++ TADEO MAURICIO ESCOBAR RIVERA🤠
+![Texto alternativo](/ruta/a/la/imagen.jpg)
+	
+ **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
+>>>>>>> 3d65ba4816e4d2f9d074c7897d02ba00f59d8c6a
 - Crear un primer repositorio de Git llamado Git-PrimerTrabajoEquipo
 - Crear un archivo Readme.md donde guardarán la información de los integrantes del equipo
 - Crear un archivo Principal
