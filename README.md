@@ -5,7 +5,7 @@
 + REGINA GARCIA FELIX🐯
 + TADEO MAURICIO ESCOBAR RIVERA🤠
   
-
+![LogoGit1](/LogoGit.jpg "Título alternativo")
 	
  **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
 - Crear un primer repositorio de Git llamado Git-PrimerTrabajoEquipo
