@@ -1,144 +1,65 @@
-"Calculadora de Funciones, Lorena Regina García Félix"
-
+"Codigo simulatorio de un Banco By: Lorena Regina Garcia Félix"
 #include <iostream>
-#include <cmath>
 
 using namespace std;
-
-    int op;
-    float valor1;
-    float valor2;
-
-    void Menu();
-    void PedirValor1();
-    void PedirValor2();
-    float Sumar();
-    float Restar();
-    void MostrarResultado(float);
-    
-    int main()
-{
-    float resultado;
-    do
-    {
-        Menu();
-        switch(op)
-        {
-            case 1:
-                //Sumar
-                PedirValor1();
-                PedirValor2();
-                resultado = Sumar ();
-                MostrarResultado(resultado);
-            break;
-            case 2:
-                //Resta 
-                PedirValor1();
-                PedirValor2();
-                resultado = Restar ();
-                MostrarResultado(resultado);
-            break;
+     // Funcion para ingresar 
+    void ingresar(int &saldo){
+        int cantidad;
+        cout << "Ingrese la cantidad que desea abonar : ";
+        cin >> cantidad;
+        if(cantidad > 0){
+        saldo += cantidad;
+        cout << "Su saldo es: " << saldo << endl;
+                        }
+        else{
+            cout << "No ingreso cantidad positiva" << endl;
+            } 
+                              }
+                              
+     //Funcion para retirar                          
+    void retirar(int &saldo){
+        int cantidad;
+        cout << "Ingrese cantidad a retirar: ";
+        cin >> cantidad;
+        if(cantidad > 0 && saldo >= cantidad){
+        saldo -= cantidad;
+        cout << "Su saldo es: " << saldo << endl;
+                                             }
+        else if(cantidad > 0){
+        cout << "No tiene saldo suficiente" << endl;
+                             }
+        else{
+        cout << "No ingreso cantidad positiva" << endl;
         }
-    } while(op!=10);    
+                             }
+                             
+    
+int main()
+{
+    int saldo = 1000;
+    char opcion;
+    do{
+        cout << "  Bienvenidos a Banco mexicano RRL  " << endl;
+        cout << " A continuacion las opciones son: " << endl;
+        cout << "1. Ingresar dinero en efectivo " << endl;
+        cout << "2. Retirar dinero en efectivo" << endl;
+        cout << "3. Salir" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        switch(opcion){
+            case '1':
+                ingresar(saldo);
+                break;
+            case '2':
+                retirar(saldo);
+                break;
+            case '3':
+                cout << "  Cajeros RRL agradece su preferencia  " << endl;
+                break;
+            default:
+                cout << "Opcion invalida" << endl;
+        }
+    }while(opcion != '3');
 
     return 0;
-}
-
-void Menu ()
-{
-    cout<<"\n1-Sumar"<<endl;
-    cout<<"2-Restar "<<endl;
-    cout<<"3-Multiplicar"<<endl;
-    cout<<"4-Dividir"<<endl;
-    cout<<"5-Raíz"<<endl;
-    cout<<"6-Potencia"<<endl;
-    cout<<"7-Seno"<<endl;
-    cout<<"8-Coseno"<<endl;
-    cout<<"9-Tangente"<<endl;
-    cout<<"10-Salir"<<endl;
-    cout<<"Introduce un valor ";
-    cin>>op;
-}
-
-void PedirValor1()
-{
-    cout<<"Introduce el valor 1: ";
-    cin>>valor1;
-}
-void PedirValor2()
-{
-    cout<<"Introduce el valor 2: ";
-    cin>>valor2;
-}
-float Sumar()
-{
-    float result = valor1 + valor2;
-    return result;
-}
-float Restar()
-{
-    float result = valor1 + valor2;
-    return result;
-}
-float Multiplicar()
-{
-    float result = valor1 * valor2;
-    return result;
-}
-
-float Dividir()
-{
-    if (valor2 != 0)
-    {
-        float result = valor1 / valor2;
-        return result;
-    }
-    else
-    {
-        cout << "Error: No es posible dividir entre cero." << endl;
-        return 0; // Puedes devolver un valor específico en caso de división entre cero.
-    }
-}
-
-float Raiz()
-{
-    if (valor1 >= 0)
-    {
-        float result = sqrt(valor1);
-        return result;
-    }
-    else
-    {
-        cout << "Error: No es posible calcular la raíz de un número negativo." << endl;
-        return 0; // Puedes elegir devolver un valor específico en caso de número negativo.
-    }
-}
-
-float Potencia()
-{
-    float result = pow(valor1, valor2);
-    return result;
-}
-
-float Seno()
-{
-    float result = sin(valor1);
-    return result;
-}
-
-float Coseno()
-{
-    float result = cos(valor1);
-    return result;
-}
-
-float Tangente()
-{
-    float result = tan(valor1);
-    return result;
-}
-
-void MostrarResultado(float resultado)
-{
-    cout << "El resultado es: " << resultado<<endl;
 }
