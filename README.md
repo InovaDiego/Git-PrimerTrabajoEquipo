@@ -1,13 +1,23 @@
-# Git-PrimerTrabajoEquipo
-## ***Este Proyecto esta conformado por:***
-+ IBER ARMANDO SILVA GONZALEZ🦊
-+ DIEGO CASTILLO SALAZAR👾
-+ REGINA GARCIA FELIX🐯
-+ TADEO MAURICIO ESCOBAR RIVERA🤠
-  
-![LogoGit1](/LogoGit.jpg "Título alternativo")
-	
- **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
+<!-- logo IMG -->
+<p align="center">
+  <img width="180" src="Fotos/ProyGit.gif" 
+</p>
+
+
+
+![Static Badge](https://img.shields.io/badge/%E2%99%A5%EF%B8%8F-%20Students-red?logo=corazon&logoColor=negro)
+![Static Badge](https://img.shields.io/badge/5toCuatrimestre-green)
+![Static Badge](https://img.shields.io/badge/%F0%9F%8E%81-Software%20engineer-blue)
+![GitHub followers](https://img.shields.io/github/followers/InovaDiego)
+
+
+# **🛠️Git-PrimerTrabajoEquipo**
+
+## 💡Acerca de  
+ Este **proyecto**  es desarrollado para el estudio de la herramienta **GitHub**  y **VSC** para estudiantes de Ingeniería en Software de *Universidad Cuauhtemoc Querétato.*
+
+### 🫵Instrucciones:
+> **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
 - Crear un primer repositorio de Git llamado Git-PrimerTrabajoEquipo
 - Crear un archivo Readme.md donde guardarán la información de los integrantes del equipo
 - Crear un archivo Principal
@@ -17,8 +27,8 @@
 - Cada integrante deberá descargar la última versión de Github, y subir sus cambios al repositorio remoto.
 - Cuando todos los integrantes hayan subido sus cambios, deberán modificar en equipo el archivo Principal, donde mandarán llamar todas las funciones que crearon.
 - Posteriormente deberán crear una nueva rama llamada NuevaRama, y cambiarse a ella con "git 
-
 switch NuevaRama"
+
 - En la nueva rama actualizarán la información del archivo Readme.md y describirán los ejercicios que desarrollaron y como está compuesto su repositorio, lo guardarán en un commit, y regresarán a la rama principal.
 - En la rama principal combinar la NuevaRama con el comando siguiente "git merge NuevaRama"
 - Resolver los conflictos que surjan y guardar en un nuevo commit.
@@ -27,9 +37,13 @@ switch NuevaRama"
 - Al final deberán subir todo al repositorio de GitHub
 - Para subir los tags a GitHub se realiza a través del comando "git push origin --tags"
 
-*Los Equipos están definidos en el Excel de Calificaciones de la Materia compartido en Classroom.
-*Los programas deberán ser desarrollados en el lenguaje que seleccionaron, asegúrense de tener configurada su computadora para ejecutar el proyecto (esto no tiene nada que ver con Git, así que podrán usar el IDE que deseen)
-*Para el manejo de Git les recomiendo Visual Studio Code, después de comprobar que su código es ejecutado en su IDE preferida
-*ID_COMMIT lo encontrarán con el comando "git lg" o "git log"
-*NOMBRE_TAG deberán incluir la versión de su proyecto como por ejemplo "v1.0.3"
 
+
+
+
+### 📣Este Proyecto esta conformado por:
+---
++  IBER ARMANDO SILVA GONZALEZ (<Isilva37731@ucq.edu.mx> )
++ DIEGO CASTILLO SALAZAR (<dcastillo35389@ucq.edu.mx>)
++ LORENA REGINA GARCIA FELIX (<lgarcia32381@ucq.edu.mx>)
++ TADEO MAURICIO ESCOBAR RIVERA <tescobar38642@ucq.edu.mx>
