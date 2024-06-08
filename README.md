@@ -4,7 +4,7 @@
 + DIEGO CASTILLO SALAZAR👾
 + REGINA GARCIA FELIX🐯
 + TADEO MAURICIO ESCOBAR RIVERA🤠
-
+![Texto alternativo](/ruta/a/la/imagen.jpg)
 	
  **Seguir las siguientes instrucciones para que tengan un repositorio de Git por equipo.**
 - Crear un primer repositorio de Git llamado Git-PrimerTrabajoEquipo
