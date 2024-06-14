@@ -1,3 +1,4 @@
+//Clase Regina
 #pragma once
 #include <string>
 
