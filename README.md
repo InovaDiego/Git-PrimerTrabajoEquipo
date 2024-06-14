@@ -49,6 +49,6 @@ switch NuevaRama"
 +  IBER ARMANDO SILVA GONZALEZ (<Isilva37731@ucq.edu.mx> )
 + DIEGO CASTILLO SALAZAR (<dcastillo35389@ucq.edu.mx>)
 + LORENA REGINA GARCIA FELIX (<lgarcia32381@ucq.edu.mx>)
-+ TADEO MAURICIO ESCOBAR RIVERA <tescobar38642@ucq.edu.mx>
++ TADEO MAURICIO ESCOBAR RIVERA (<tescobar38642@ucq.edu.mx>)
 
 ![PicsGif](Fotos/Pics.gif)
