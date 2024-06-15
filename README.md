@@ -58,7 +58,7 @@ Si la suma de los valores de los dos dados es igual al puntaje objetivo, se impr
 Después de comprobar todas las combinaciones posibles, si no se encontró ninguna combinación que sume el puntaje objetivo, se imprime un mensaje indicándolo.
 ![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/86624889/0a903e32-3100-4076-89c0-0ed8674ba20d)
 
-## **Función Triángulo**
+## **Función Triángulo by Tadeo**
 Se incluyen las bibliotecas necesarias para el programa.
 
     #include "TadeoMauricioEscobarRivera.h": Incluye un archivo de cabecera personalizado que contiene declaraciones adicionales necesarias para el programa.
@@ -93,6 +93,20 @@ El bucle exterior finaliza después de iterar sobre todas las filas y dibujar el
     }: Finaliza la definición de la función dibujarTriangulo.
 
 ![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170773459/8b31ed3f-f7af-4fb3-b17e-1ef0d2b7fe53)
+
+## **Función numeros Primos by Iber**
+
+Se creó una clase
+
+![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170483137/47a1b4ae-cf46-4486-8260-d9b0aad065ce)
+
+Esto veririca si es primo y luego devuelve los numeros primos en "n" numero primos
+
+En el cpp se crea el codigo para sacar si es primo
+
+![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170483137/afab41d3-965d-4a26-abba-b252c403caa2)
+
+
 
 
 
