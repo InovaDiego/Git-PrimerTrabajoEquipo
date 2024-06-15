@@ -42,12 +42,21 @@ switch NuevaRama"
 - Al final deberán subir todo al repositorio de GitHub
 - Para subir los tags a GitHub se realiza a través del comando "git push origin --tags"
 
-Funcion para palindromo 
-el usuario escribe la palabra y el programa la reescribe al reves, si es igual da como resultado "Palindormo"
+## **Funcion para palindromo by Regina** 
+El usuario escribe la palabra y el programa la reescribe al reves, si es igual da como resultado "Palindormo"
 
 ![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170483084/1b0de4da-8438-4e31-9577-94aaea28c6ba)
 ![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170483084/500b5105-e152-46b6-8799-cc9afdeb1dce)
 
+
+## **Función Combinación DadosDados by Diego Castillo Salazar**
+>Se define una función combinacionesDados que recibe un entero puntaje como parámetro.
+Dentro de la función:
+Se imprime un mensaje inicial indicando el puntaje objetivo.
+Se utiliza un bucle anidado para iterar sobre todas las combinaciones posibles de los valores de dos dados (cada dado puede tener valores del 1 al 6).
+Si la suma de los valores de los dos dados es igual al puntaje objetivo, se imprime la combinación y se marca la variable found como true.
+Después de comprobar todas las combinaciones posibles, si no se encontró ninguna combinación que sume el puntaje objetivo, se imprime un mensaje indicándolo.
+![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/86624889/0a903e32-3100-4076-89c0-0ed8674ba20d)
 
 
 ### 📣Este Proyecto esta conformado por:
