@@ -42,6 +42,12 @@ switch NuevaRama"
 - Al final deberán subir todo al repositorio de GitHub
 - Para subir los tags a GitHub se realiza a través del comando "git push origin --tags"
 
+Funcion para palindromo 
+el usuario escribe la palabra y el programa la reescribe al reves, si es igual da como resultado "Palindormo"
+
+![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170483084/1b0de4da-8438-4e31-9577-94aaea28c6ba)
+![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170483084/500b5105-e152-46b6-8799-cc9afdeb1dce)
+
 
 
 ### 📣Este Proyecto esta conformado por:
