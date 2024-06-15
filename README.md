@@ -58,6 +58,43 @@ Si la suma de los valores de los dos dados es igual al puntaje objetivo, se impr
 Después de comprobar todas las combinaciones posibles, si no se encontró ninguna combinación que sume el puntaje objetivo, se imprime un mensaje indicándolo.
 ![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/86624889/0a903e32-3100-4076-89c0-0ed8674ba20d)
 
+## **Función Triángulo**
+Se incluyen las bibliotecas necesarias para el programa.
+
+    #include "TadeoMauricioEscobarRivera.h": Incluye un archivo de cabecera personalizado que contiene declaraciones adicionales necesarias para el programa.
+    #include <iostream>: Incluye la biblioteca estándar de C++ para la entrada y salida a través de flujos (como std::cin y std::cout).
+
+Se define una función dibujarTriangulo que recibe un entero tamano como parámetro.
+
+    void dibujarTriangulo(int tamano) {: Define la función que se encargará de dibujar un triángulo en la consola.
+
+Dentro de la función:
+
+    Se utiliza un bucle for para iterar sobre cada fila del triángulo.
+        for (int i = 1; i <= tamano; ++i): Itera desde i = 1 hasta i = tamano, controlando el número de filas del triángulo.
+
+Para cada fila, se imprimen espacios en blanco y asteriscos:
+
+    Primero, se imprimen los espacios necesarios para alinear los asteriscos en forma de triángulo.
+        for (int j = 0; j < tamano - i; ++j): Itera desde j = 0 hasta j < tamano - i, imprimiendo los espacios necesarios antes de los asteriscos.
+            std::cout << " ";: Imprime un espacio en blanco en cada iteración.
+
+    Después, se imprimen los asteriscos correspondientes a la fila actual.
+        for (int k = 0; k < 2 * i - 1; ++k): Itera desde k = 0 hasta k < 2 * i - 1, imprimiendo los asteriscos necesarios para formar la fila del triángulo.
+            std::cout << "*";: Imprime un asterisco en cada iteración.
+
+Se imprime un salto de línea después de completar cada fila para pasar a la siguiente.
+
+    std::cout << std::endl;: Imprime un salto de línea al final de cada fila, moviendo el cursor a la siguiente línea en la consola.
+
+El bucle exterior finaliza después de iterar sobre todas las filas y dibujar el triángulo completo.
+
+    }: Finaliza el cuerpo del bucle exterior.
+    }: Finaliza la definición de la función dibujarTriangulo.
+
+![image](https://github.com/InovaDiego/Git-PrimerTrabajoEquipo/assets/170773459/8b31ed3f-f7af-4fb3-b17e-1ef0d2b7fe53)
+
+
 
 ### 📣Este Proyecto esta conformado por:
 ---
